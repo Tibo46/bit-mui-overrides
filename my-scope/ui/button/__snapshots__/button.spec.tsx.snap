@@ -1,0 +1,265 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button renders as disabled if disabled state passed 1`] = `
+<button
+  className="MuiButtonBase-root MuiButton-root MuiButton-outlined makeStyles-root-1 makeStyles-normalMargin-4 MuiButton-outlinedPrimary MuiButton-disableElevation Mui-disabled Mui-disabled"
+  disabled={true}
+  onBlur={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  tabIndex={-1}
+  type="button"
+>
+  <span
+    className="MuiButton-label"
+  />
+</button>
+`;
+
+exports[`Button renders the button in secondary color if passed 1`] = `
+<button
+  className="MuiButtonBase-root MuiButton-root MuiButton-outlined makeStyles-root-1 makeStyles-normalMargin-4 MuiButton-outlinedSecondary MuiButton-disableElevation"
+  disabled={false}
+  onBlur={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  tabIndex={0}
+  type="button"
+>
+  <span
+    className="MuiButton-label"
+  />
+  <span
+    className="MuiTouchRipple-root"
+  />
+</button>
+`;
+
+exports[`Button renders the contained button when not props passed 1`] = `
+<button
+  className="MuiButtonBase-root MuiButton-root MuiButton-outlined makeStyles-root-1 makeStyles-normalMargin-4 MuiButton-outlinedPrimary MuiButton-disableElevation"
+  disabled={false}
+  onBlur={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  tabIndex={0}
+  type="button"
+>
+  <span
+    className="MuiButton-label"
+  />
+</button>
+`;
+
+exports[`Button renders the icon when passed 1`] = `
+<button
+  className="MuiButtonBase-root MuiButton-root MuiButton-outlined makeStyles-root-1 makeStyles-normalMargin-4 MuiButton-outlinedPrimary MuiButton-disableElevation"
+  disabled={false}
+  onBlur={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  tabIndex={0}
+  type="button"
+>
+  <span
+    className="MuiButton-label"
+  >
+    <span
+      className="makeStyles-icon-6"
+    >
+      Icon
+    </span>
+  </span>
+</button>
+`;
+
+exports[`Button renders the loader if loading state passed 1`] = `
+<button
+  className="MuiButtonBase-root MuiButton-root MuiButton-outlined makeStyles-root-1 makeStyles-normalMargin-4 MuiButton-outlinedPrimary MuiButton-disableElevation Mui-disabled Mui-disabled"
+  disabled={true}
+  onBlur={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  tabIndex={-1}
+  type="button"
+>
+  <span
+    className="MuiButton-label"
+  >
+    <span
+      className="makeStyles-loader-5"
+    >
+      <div
+        className="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
+        role="progressbar"
+        style={
+          Object {
+            "height": 25,
+            "width": 25,
+          }
+        }
+      >
+        <svg
+          className="MuiCircularProgress-svg"
+          viewBox="22 22 44 44"
+        >
+          <circle
+            className="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate"
+            cx={44}
+            cy={44}
+            fill="none"
+            r={20.2}
+            strokeWidth={3.6}
+            style={Object {}}
+          />
+        </svg>
+      </div>
+    </span>
+  </span>
+</button>
+`;
+
+exports[`Button renders the loader in secondary color if loading state and color passed 1`] = `
+<button
+  className="MuiButtonBase-root MuiButton-root MuiButton-outlined makeStyles-root-1 makeStyles-normalMargin-4 MuiButton-outlinedSecondary MuiButton-disableElevation Mui-disabled Mui-disabled"
+  disabled={true}
+  onBlur={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  tabIndex={-1}
+  type="button"
+>
+  <span
+    className="MuiButton-label"
+  >
+    <span
+      className="makeStyles-loader-5"
+    >
+      <div
+        className="MuiCircularProgress-root MuiCircularProgress-colorSecondary MuiCircularProgress-indeterminate"
+        role="progressbar"
+        style={
+          Object {
+            "height": 25,
+            "width": 25,
+          }
+        }
+      >
+        <svg
+          className="MuiCircularProgress-svg"
+          viewBox="22 22 44 44"
+        >
+          <circle
+            className="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate"
+            cx={44}
+            cy={44}
+            fill="none"
+            r={20.2}
+            strokeWidth={3.6}
+            style={Object {}}
+          />
+        </svg>
+      </div>
+    </span>
+  </span>
+</button>
+`;
+
+exports[`Button renders the outlined button when variant passed 1`] = `
+<button
+  className="MuiButtonBase-root MuiButton-root MuiButton-outlined makeStyles-root-1 makeStyles-normalMargin-4 MuiButton-outlinedPrimary MuiButton-disableElevation"
+  disabled={false}
+  onBlur={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  tabIndex={0}
+  type="button"
+>
+  <span
+    className="MuiButton-label"
+  />
+  <span
+    className="MuiTouchRipple-root"
+  />
+</button>
+`;
+
+exports[`Button renders the text button when variant passed 1`] = `
+<button
+  className="MuiButtonBase-root MuiButton-root MuiButton-text makeStyles-root-1 makeStyles-normalMargin-4 MuiButton-textPrimary MuiButton-disableElevation"
+  disabled={false}
+  onBlur={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  tabIndex={0}
+  type="button"
+>
+  <span
+    className="MuiButton-label"
+  />
+</button>
+`;
